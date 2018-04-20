@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{345ec461-5fe2-4b21-b8d6-007482b53406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b76194e1-f489-44ac-9e0b-689875373a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{23908447-c777-4fc0-abfd-5316913eb522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\include">
+      <UniqueIdentifier>{a4845240-a845-4ecb-b5d5-91b5278cb183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\include\nlohmann">
+      <UniqueIdentifier>{3993eddd-c475-4459-92ee-573598206b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{e8c58f00-f599-40a9-b5fc-2740067d61af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{21568697-14b5-4e87-92c9-baee00d0b2e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\include\nlohmann\adl_serializer.hpp">
+      <Filter>ext\include\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\include\nlohmann\json.hpp">
+      <Filter>ext\include\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\include\nlohmann\json_fwd.hpp">
+      <Filter>ext\include\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KnownKeys.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\node.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spectrum_elements.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\color.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\regex_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\data.json">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\regex_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
